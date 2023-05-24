@@ -1,0 +1,8 @@
+.listachela {
+    background-color: rgb(226, 226, 107);
+    width: 400px;
+    font-family: 'Courier New', Courier, monospace;
+    margin: 20px;
+    padding: 20px;
+    display: grid;
+}

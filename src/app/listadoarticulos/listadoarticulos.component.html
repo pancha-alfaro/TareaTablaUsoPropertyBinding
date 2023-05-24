@@ -1,0 +1,20 @@
+<h1>Lista de Cerveza usando Propety Binding</h1>
+<b>
+<div class="listachela">
+<table>
+  <thead>
+    <tr>
+      <th>Nombre</th>
+      <th>Pais</th>
+      <th>Contenido</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr *ngFor="let articulo of articulos">
+      <td>{{ articulo.title }}</td>
+      <td>{{ articulo.pais }}</td>
+      <td>{{ articulo.contenido }}</td>
+    </tr>
+  </tbody>
+</table>
+</div>
